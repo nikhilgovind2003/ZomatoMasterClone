@@ -5,6 +5,7 @@ import HomePage from "../Pages/HomePage";
 const DefaultLayout = (props) => {
   return (
     <>
+    <Navbar />
     <HomePage />
       {props.children}
     </>
